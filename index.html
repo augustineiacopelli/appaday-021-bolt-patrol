@@ -29,7 +29,6 @@
 
   #header {
     width: 100%;
-    max-width: 800px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,7 +41,6 @@
 
   #hud {
     width: 100%;
-    max-width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,9 +59,9 @@
   #ring-bar-bg { width: 60px; height: 8px; background: #222; border: 1px solid #ffe000; border-radius: 4px; overflow: hidden; }
   #ring-bar-fill { height: 100%; background: #ffe000; border-radius: 4px; transition: width 0.15s; }
 
-  #game-wrap { position: relative; width: 100%; max-width: 800px; }
+  #game-wrap { position: relative; width: 100%; }
 
-  canvas { display: block; width: 100%; background: #000; cursor: pointer; }
+  canvas { display: block; width: 100%; height: auto; background: #000; cursor: pointer; }
 
   #overlay {
     position: absolute; inset: 0;
@@ -112,7 +110,7 @@
 <body>
 
 <div id="header">
-  <a href="https://augustineiacopelli.github.io/appaday/">← portfolio</a>
+  <a href="https://augustineiacopelli.github.io">← portfolio</a>
   <span id="header-title">021 · BOLT PATROL</span>
   <span style="font-size:7px;color:#555;">G · GAME</span>
 </div>
