@@ -45,3 +45,7 @@ Clear all 8 to beat the game.
 - [x] Win screen after clearing all 8 zones
 - [x] Mobile-friendly single-tap controls
 - [x] Lives system with game over and high score tracking
+
+## Updates
+
+2026-06-06: Updated max screen dimesions to fit larger screens better.
